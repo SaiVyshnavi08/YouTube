@@ -107,7 +107,7 @@ function navigateToVideo(videoId){
 
     document.cookie = `video_id= ${videoId} ; path=${path}`
     let linkItem =document.createElement("a");
-    linkItem.href="./video.html";
+    linkItem.href="https://saivyshnavi08.github.io/YouTube/video.html";
     linkItem.target="_blank";
     linkItem.click();
 
