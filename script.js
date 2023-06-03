@@ -100,14 +100,14 @@ function formattedData(duration){
 function navigateToVideo(videoId){
  
   // console.log(videoId);
-  let path =`YouTube%20clone/video.html`;
+  let path =`./video.html`;
   if(videoId){
     //only if it is present
    
 
     document.cookie = `video_id= ${videoId} ; path=${path}`
     let linkItem =document.createElement("a");
-    linkItem.href="/video.html";
+    linkItem.href="./video.html";
     linkItem.target="_blank";
     linkItem.click();
 
